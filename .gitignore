@@ -1,0 +1,15 @@
+# local mesh secrets — never commit
+mesh_state.json
+mesh.connect.json
+*.connect.json
+*_state.json
+
+# logs / artifacts
+*.log
+provision_run.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
